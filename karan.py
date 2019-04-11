@@ -3,6 +3,9 @@ import sys
 import termios
 import keyboard
 
+#define karan
+
+
 def flush_input():
 	import sys, termios
 	termios.tcflush(sys.stdin, termios.TCIOFLUSH)
