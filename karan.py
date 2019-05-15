@@ -63,7 +63,7 @@ def open_serialComm(port):
 
 
 print('\nEstablishing communication with Analyzer Bot....')
-serial_port = open_serialComm('/dev/ttyUSB2')
+serial_port = open_serialComm('/dev/ttyUSB0')
 while True:#making a loop
 	#used try so that if user pressed other than the given key error will not be shown
 	if keyboard.is_pressed('w'):	#if key 'a' is pressed
