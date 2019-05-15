@@ -21,6 +21,7 @@ void setup(){
   pinMode(Front_Light_Pin,OUTPUT);
   pinMode(Autonomous_Mode_Pin,OUTPUT);
   pinMode(Circuit_Breaker_Pin,OUTPUT);
+  Serial.println("Initialization complete...");
 }
 uint8_t data;
 
